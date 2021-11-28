@@ -1,0 +1,67 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background: url("bg1.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+.container
+{
+    width: 395px;
+    position: absolute;
+    top: 31%;
+    left: 35%;
+}
+.container h1
+{
+    margin-bottom: 40px;
+    border-bottom: 8px solid rgb(32, 108, 170);
+    border-radius: 4px;
+    text-shadow: 4px 4px 4px rgb(166, 166, 238);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+input
+{
+    width: 74%;
+    background: none;
+    padding: 5px 8px;
+    border: none;
+}
+
+::placeholder
+{
+    color: rgb(146, 195, 241);
+    font-size: 15px;
+    font-weight: bold;
+}
+.box
+{
+    margin: 13px;
+    padding: 0px 12px;
+    border-bottom: 4px solid rgb(32, 108, 170);
+
+}
+.btn
+{
+    margin: 8px 32px;
+    border: 2px solid black;
+    background: transparent;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgb(32, 108, 170);
+}
+.box i
+{
+    padding: 8px;
+}
+.btn:hover
+{
+    background-color:rgb(12, 133, 144);
+    border-radius: 4px;
+}
